@@ -1,0 +1,29 @@
+{
+  "name": "ng2-styled-directive",
+  "version": "1.0.0",
+  "description": "Angular 2 'styled' directive.",
+  "author": "Bogdan Shapoval (targus) <it.targus@gmail.com>",
+  "main": "ng2-styled.directive.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Bogdan1975/ng2-styled-directive.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Bogdan1975/ng2-styled-directive/issues"
+  },
+  "keywords": [
+    "angularjs",
+    "angular2",
+    "angular 2",
+    "directive",
+    "styled",
+    "styling",
+    "style",
+    "skin"
+  ],
+  "dependencies": {
+    "angular2": ">=2.0.0-beta.17"
+  },
+  "devDependencies": {},
+  "license": "MIT"
+}
