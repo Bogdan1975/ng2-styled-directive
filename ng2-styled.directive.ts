@@ -3,9 +3,9 @@
  * @author Bogdan Shapoval (targus) <it.targus@gmail.com>
  */
 
-import {Directive, Input, ElementRef, ViewContainerRef} from 'angular2/core';
+import {Directive, Input, ElementRef, ViewContainerRef} from '@angular/core';
 
-interface IConfigItem {
+export interface IConfigItem {
     path?: string;
     block?: Array<string>|string;
 }
@@ -155,7 +155,7 @@ export class Ng2StyledDirective {
 
         var link = document.createElement('link');
         link.type = 'text/css';
-        link.rel = 'stylesheet'
+        link.rel = 'stylesheet';
         link.href = `${stylePath}`;
         var head  = document.getElementsByTagName('head')[0];
         head.appendChild(link);
