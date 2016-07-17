@@ -21,9 +21,6 @@
     "style",
     "skin"
   ],
-  "dependencies": {
-    "angular2": ">=2.0.0-rc.2"
-  },
   "devDependencies": {},
   "license": "MIT"
 }

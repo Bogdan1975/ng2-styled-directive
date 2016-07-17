@@ -20,6 +20,8 @@ Demo: [http://bogdan1975.github.io/styled/](http://bogdan1975.github.io/styled/)
         - [ISkinable](#iskinable)
         - [IStyledConfig](#istyledconfig)
         - [IConfigItem](#iconfigitem)
+        
+        
 # Dependencies
 
 - [Angular 2](https://github.com/angular/angular)   `npm install angular2`
