@@ -33,7 +33,7 @@ export class Ng2StyledDirective {
     ngAfterViewInit() {
 
         // get component instance in case directive was applied to component
-        var component = (<any>this._view)._element.component;
+        var component = (<any>this._view.injector).view.context;
 
         // check for skin settings method in parent component
         if (typeof(component) == 'object' && typeof(component.getStyledConfig) == 'function' && this.skin != 'none') {
